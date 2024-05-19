@@ -2,10 +2,14 @@
 .nav {
     width: 50%;
     border: 1px black;
-    background-color: rgb(122, 126, 126);
+    background-color: rgb(255, 255, 255);
     height: 500px;
     display: grid;
     grid-template-columns: auto auto  ;
+    grid-row-gap: 10px;
+    grid-column-gap:  10px;
+
+
    
 }
 
@@ -54,7 +58,6 @@
     grid-column: 7 / span 17; 
     background-color: rgb(221, 164, 30);
     text-align: center;
-
 }
 
 .footer{
