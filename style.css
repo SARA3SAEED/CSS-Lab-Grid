@@ -9,7 +9,7 @@
     grid-row-gap: 10px;
     grid-column-gap:  10px;
     font-size: medium;
-
+   
 
    
 }
@@ -106,6 +106,8 @@
         background-color: rgb(255, 255, 255);
         color: rgb(254, 183, 97);
         font-size: xx-large;
+        background-image: url(https://images.pexels.com/photos/23996577/pexels-photo-23996577/free-photo-of-a-close-up-of-a-building-with-windows.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+
     }
 
     .header{
