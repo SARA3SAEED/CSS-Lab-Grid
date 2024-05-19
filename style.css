@@ -1,0 +1,65 @@
+
+.nav {
+    width: 50%;
+    border: 1px black;
+    background-color: rgb(122, 126, 126);
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto auto  ;
+   
+}
+
+.header {
+    grid-column: 1 / span 23; 
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.hero{
+    grid-column: 1 / span 6;
+    background-color: bisque;
+    text-align: center;
+
+}
+
+.main{
+    grid-column: 7 / span 17; 
+    background-color: blue;
+    text-align: center;
+
+}
+
+.side{
+    grid-column: 1 / span 6; 
+    background-color: brown;
+    text-align: center;
+
+}
+
+.extra{
+    grid-column: 7 / span 17; 
+    background-color: blueviolet;
+    text-align: center;
+
+}
+
+.images{
+    grid-column: 1 / span 6; 
+    background-color:rgb(105, 194, 139);
+    text-align: center;
+
+}
+
+.post{
+    grid-column: 7 / span 17; 
+    background-color: rgb(221, 164, 30);
+    text-align: center;
+
+}
+
+.footer{
+    grid-column: 1 /span 23; 
+    background-color: rgb(235, 55, 193);
+    text-align: center;
+
+}
