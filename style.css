@@ -1,6 +1,6 @@
 
 .nav {
-    width: 50%;
+   
     border: 1px black;
     background-color: rgb(255, 255, 255);
     height: 500px;
@@ -8,6 +8,7 @@
     grid-template-columns: auto auto  ;
     grid-row-gap: 10px;
     grid-column-gap:  10px;
+    font-size: medium;
 
 
    
@@ -65,4 +66,65 @@
     background-color: rgb(235, 55, 193);
     text-align: center;
 
+}
+
+
+@media screen and (max-width: 430px) {
+    .nav {
+        background-color: rgb(255, 255, 255);
+        color: rgb(164, 44, 7);
+        font-size: small;
+    }
+
+    .header{
+        background-color: aqua;
+    }
+
+    .extra{
+        background-color: blue;
+    }
+
+    .footer{
+        background-color: rgb(189, 220, 36);
+    }
+
+    .hero{
+        background-color: rgb(237, 19, 186);
+    }
+
+    .images{
+        background-color: rgb(201, 91, 47);
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 830px) {
+    .nav {
+        background-color: rgb(255, 255, 255);
+        color: rgb(254, 183, 97);
+        font-size: xx-large;
+    }
+
+    .header{
+        background-color: rgb(6, 97, 97);
+    }
+
+    .extra{
+        background-color: rgb(68, 68, 236);
+    }
+
+    .footer{
+        background-color: rgb(236, 139, 59);
+    }
+
+    .hero{
+        background-color: rgb(82, 234, 171);
+    }
+
+    .images{
+        background-color: rgb(237, 72, 86);
+    }
 }
